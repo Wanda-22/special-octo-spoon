@@ -1,0 +1,43 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+#appn{
+    background-color: sienna;
+    margin-top: 0;
+    font-size: 70px;
+    color: gold;
+    font-family: Impact;
+}
+#st,#sa,#nu{
+    background-color: coral;
+    color: wheat;
+    font-size: 25px;
+    letter-spacing: 6;
+    border-radius: 55px;
+    width: 200px;
+    padding: 10px;
+}
+#made{
+    color: azure;
+    bottom: 0;
+    position: fixed;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    font-family: Times;
+}
+canvas{
+    border: 25px groove deepskyblue;
+    margin-top: 150;
+    border-radius: 70px;
+    animation-name: x;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;    
+}
+
+@keyframes x{
+    from{
+        box-shadow: 30px 30px 30px 30px darkblue;
+    }
+}
